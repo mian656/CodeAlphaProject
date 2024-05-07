@@ -1,3 +1,9 @@
+.title{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
 .Gallery{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -7,6 +13,7 @@
 
 .Gallery-item {
     overflow: hidden;
+    margin: 3px;
   }
 
   .Gallery-item img {
@@ -31,7 +38,7 @@
     margin: auto;
     display: block;
     max-width: 90%;
-    max-height: 90%;
+    height: 70%;
   }
 
   .close {
@@ -42,4 +49,5 @@
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    cursor: pointer;
   }
