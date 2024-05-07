@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="image.css" />
+    <title>Image Gallery</title>
+</head>
+<body>
+   <div> <h1>Image Gallery</h1></div>
+   <div class="Gallery">
+    
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-1"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-2"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-3"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="cat.PNG" onclick="openModal(this.src)" alt="img-4"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="paw.PNG" onclick="openModal(this.src)" alt="img-5"/>
+        
+    </div>
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-6"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-7"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-8"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-9"/>
+    </div>
+    <div class="Gallery-item">
+        <img src="dog.PNG" onclick="openModal(this.src)" alt="img-10"/>
+    </div>
+   </div>
+   <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage"/>
+  </div>
+  <script src="image.js"></script>
+
+</body>
+</html>
